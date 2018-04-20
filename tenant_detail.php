@@ -28,12 +28,12 @@ if(isset($_POST["tid"]) and $_POST["tid"] != "")
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php include 'metatag.inc';?>
+<?php include 'INc/metatag.inc';?>
 <title>ผู้เช่าพื้นที่</title>
 </head>
 
 <body>
-<?php include 'menubar.inc';?>
+<?php include 'INC/menubar.inc';?>
 <a href="<?php echo $referer; ?>">ย้อนกลับ</a>
 <center><font size="+2"><b>จัดการข้อมูลผู้เช่าพื้นที่</b></font></center>
 <form name="tenant" method="post" action="tenant_exec.php">

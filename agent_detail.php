@@ -22,12 +22,12 @@ if(isset($_POST["aid"]) and $_POST["aid"] != "")
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php include 'metatag.inc';?>
+<?php include 'INC/metatag.inc';?>
 <title>ผู้จำหน่าย Voucher</title>
 </head>
 
 <body>
-<?php include 'menubar.inc';?>
+<?php include 'INC/menubar.inc';?>
 <a href="<?php echo $referer; ?>">ย้อนกลับ</a>
 <center><font size="+2"><b>จัดการข้อมูลผู้จำหน่าย Voucher</b></font></center>
 <form name="agent" method="post" action="agent_exec.php">

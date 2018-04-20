@@ -5,12 +5,12 @@ $vclist = $_POST["vclist"];
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php include 'metatag.inc';?>
+<?php include 'INC/metatag.inc';?>
 <title>บันทึก Voucher ใหม่เข้าสู่ระบบ</title>
 </head>
 
 <body>
-<?php include 'menubar.inc';?>
+<?php include 'INC/menubar.inc';?>
 <center><font size="+2"><b>บันทึก Voucher ใหม่เข้าสู่ระบบ</b></font>
 <table width="80%">
 <tr><td width="50%" valign="top" align="center" bgcolor="#33CCFF">
