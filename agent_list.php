@@ -2,12 +2,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php include 'metatag.inc';?>
+<?php include 'INC/metatag.inc';?>
 <title>ผู้จำหน่าย Voucher</title>
 </head>
 
 <body>
-<?php include 'menubar.inc';?>
+<?php include 'INC/menubar.inc';?>
 <?php
 $colmx = 3;
 $col = 1;
