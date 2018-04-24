@@ -7,7 +7,7 @@ $systemfolder = "ShowDC";
 $systempath = "http://10.10.134.129/ShowDC/";
 $txtconip = "localhost";
 $txtcon1 = "showdc_act";
-$txtcon2 = "123";
+$txtcon2 = "1234";
 $txtcondb = "showdc";
 $remoteaddr = $_SERVER['REMOTE_ADDR'];
 $numberinaday = 86400;
@@ -22,6 +22,7 @@ if (mysqli_connect_errno($dbconn))
 	echo "Database System error!!!"; //"Failed to connect to MySQL: " . mysqli_connect_error();
 	exit();
 }
+mysqli_set_charset($dbconn, "utf8");
 
 //Common Functions
 //Function used for run INSERT UPDATE DELETE sql operation into multiple database (parallel database)
